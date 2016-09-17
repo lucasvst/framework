@@ -9,6 +9,8 @@ $routes->add('hello', new Routing\Route('/hello/{name}', array(
 	'_controller' => 'render_template',
 )));
 
-$routes->add('bye', new Routing\Route('/bye'));
+$routes->add('bye', new Routing\Route('/bye', array(
+	'_controller' => 'render_template',
+)));
 
 return $routes;
