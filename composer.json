@@ -1,0 +1,13 @@
+{
+    "name": "lucasvst/framework",
+    "require": {
+        "symfony/http-foundation": "^3.1",
+        "symfony/routing": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "Lucas Teles",
+            "email": "lucasvst@gmail.com"
+        }
+    ]
+}
